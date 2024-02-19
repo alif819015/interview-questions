@@ -1,8 +1,10 @@
+import Container from "../components/Shared/Container/Container";
+
 const ES6Questions = () => {
     return (
-        <div>
+        <Container>
             ES6 questions
-        </div>
+        </Container>
     );
 };
 

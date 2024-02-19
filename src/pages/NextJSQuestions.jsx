@@ -1,8 +1,10 @@
+import Container from "../components/Shared/Container/Container";
+
 const NextJSQuestions = () => {
     return (
-        <div>
+        <Container>
             Next JS questions
-        </div>
+        </Container>
     );
 };
 
