@@ -39,6 +39,16 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink
+              to="/advance-topic"
+              aria-label="Home"
+              title="Home"
+              className={({ isActive }) => (isActive ? "active" : "default")}
+            >
+              Advance Topic
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
               to="/js-question"
               aria-label=""
               title=""
@@ -203,6 +213,16 @@ const Navbar = () => {
                 </div>
                 <nav>
                   <ul className="space-y-4">
+                    <li>
+                      <Link
+                        to="/advance-topic"
+                        aria-label=""
+                        title=""
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      >
+                        Advance Topic
+                      </Link>
+                    </li>
                     <li>
                       <Link
                         to="/js-question"

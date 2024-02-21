@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Container from "../components/Shared/Container/Container";
 
 const ExpressJSQuestions = () => {
@@ -209,31 +210,7 @@ const ExpressJSQuestions = () => {
             DELETE: <br />
             i. Used to delete a specified resource. <br />
             ii. DELETE requests indicate that the client wants to remove the
-            resource identified by the request URI. <br />
-            <br />
-            HEAD: <br />
-            i. Similar to GET, but the server should only return the headers and
-            not the actual content of the resource. <br />
-            ii. HEAD requests are often used to check the status of a resource
-            or to obtain metadata about a resource. <br />
-            <br />
-            OPTIONS: <br />
-            i. Used to describe the communication options for the target
-            resource. <br />
-            ii. It`s typically used to determine which HTTP methods and headers
-            are supported by the server for a particular resource. <br />
-            <br />
-            TRACE: <br />
-            i. Used to perform a message loop-back test along the path to the
-            target resource. <br />
-            ii. TRACE requests are often used for diagnostic purposes to see how
-            the request changes as it travels through proxies and servers.{" "}
-            <br />
-            <br />
-            CONNECT: <br />
-            i. Used to establish a connection to the target resource, typically
-            for establishing a tunnel for secure communication through proxies.{" "}
-            <br />
+            resource identified by the request URI.
           </p>
         </div>
       </div>
@@ -244,9 +221,7 @@ const ExpressJSQuestions = () => {
         </div>
         <div className="collapse-content">
           <p>
-            Ans: The app. use() function is used to mount the specified
-            middleware function(s) at the path that is being specified. It is
-            mostly used to set up middleware for your application.
+          app.use() in Express.js is used to add middleware functions to the application's request processing pipeline. It applies these middleware functions to all incoming requests, allowing for common tasks like parsing request bodies or serving static files.
           </p>
         </div>
       </div>

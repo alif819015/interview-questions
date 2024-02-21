@@ -11,6 +11,7 @@ import NodeQuestions from "../pages/NodeQuestions";
 import ExpressJSQuestions from "../pages/ExpressJSQuestions";
 import MongoDBQuestion from "../pages/MongoDBQuestion";
 import NextJSQuestions from "../pages/NextJSQuestions";
+import AdvanceTopic from "../pages/AdvanceTopic";
 
 const router = createBrowserRouter([
     {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
           {
             path: "/",
             element: <Home />,
+          },
+          {
+            path: "/advance-topic",
+            element: <AdvanceTopic />,
           },
           {
             path: "/js-question",
